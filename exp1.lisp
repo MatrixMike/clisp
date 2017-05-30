@@ -1,3 +1,9 @@
+(defun negate (x)
+"inlin comments"
+(- x))
+
+ (negate 7)
+
 (setq first 'jim)
 (setq second 'joe)
 (setq third 'jack)
@@ -28,18 +34,17 @@
 (setq res1 (car (cdr a)))
 
 
-(setq n1 (a full . stop))
-(rplaca l l )
-(rplacd l l )
+(setq n1 '(a full . stop))
+
 (eq 3 3 )
 (eq 3 4 )
-(plus 3 4 )
+
 (append '( p q r ) '(x y z))
 
 (member 'b '(a b c d e f g h i j ))
 (member 'z '(a b c ))
 
-(princ 'x= blank x)
+
 (defun square (x) (* x x ))
 
 (defun letter (ch)
@@ -47,7 +52,7 @@
  (and (greaterp ch 64)
  (lessp ch 91)))
 
-(mapc '(lambda (n) (plus n 1) ) nl)
+
 (list 'a 'b 'c)
 
 
