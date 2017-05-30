@@ -12,7 +12,7 @@
 (setq w 'three)
 (car (cons u v))
 (cdr (cons u v ))
- (setq t (cdr (cons u v )))
+
 
 (defun find-address (person)
 (get person 'address))
