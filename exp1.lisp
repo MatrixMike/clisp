@@ -59,5 +59,16 @@
 
 
 (list 'a 'b 'c)
+(current-time )
+(getenv )
+(read-line )
+(uname)
+(user-info)
+(write-string "tytyy\n")
+(setq w "three")
+(write-string w)
+(argv)
+(reverse "qwert")
+	
 
 
