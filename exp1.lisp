@@ -1,8 +1,11 @@
 (defun negate (x)
-"inlin comments"
+"inline comments"
 (- x))
 
  (negate 7)
+(compiled-function-p #'negate )
+(compile 'negate )
+(compiled-function-p #'negate )
 
 (setq first 'jim)
 (setq second 'joe)
