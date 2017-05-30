@@ -1,6 +1,8 @@
 (setq first 'jim)
 (setq second 'joe)
 (setq third 'jack)
+(setq nl (append '( p q r ) '(x y z)))
+(cddddr nl)
 (setq where 
 (get 'julius 'address))
 
@@ -19,16 +21,14 @@
 (find-address 'julius)
 (get 'julius 'address)
 
-(setq a '(a (list)
- (with 
- sublists)))
+(setq a '(q w e r t))
 (car a)
 (cdr a)
 (car (cdr a))
 (setq res1 (car (cdr a)))
 
-'(1 . (2 . (3 . nil)))
-(a full . stop)
+
+(setq n1 (a full . stop))
 (rplaca l l )
 (rplacd l l )
 (eq 3 3 )
@@ -36,21 +36,18 @@
 (plus 3 4 )
 (append '( p q r ) '(x y z))
 
-(member 'b '(a b c ))
+(member 'b '(a b c d e f g h i j ))
 (member 'z '(a b c ))
 
 (princ 'x= blank x)
+(defun square (x) (* x x ))
 
 (defun letter (ch)
-(setq ch (ordinal ch))
-(and (greaterp ch 64)
-(lessp ch 91)))
+ (setq ch (ordinal ch))
+ (and (greaterp ch 64)
+ (lessp ch 91)))
 
-
-
-
-
-
-(mapc '(lambda (n) (plus n 1) ) l)
+(mapc '(lambda (n) (plus n 1) ) nl)
+(list 'a 'b 'c)
 
 
