@@ -24,6 +24,8 @@
 (car (cons u v))
 (cdr (cons u v ))
 
+(eval '(+ (* 2 3 ) 7 ))
+
 
 (defun find-address (person)
 (get person 'address))

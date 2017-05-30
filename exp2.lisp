@@ -1,3 +1,7 @@
+(put 'queen 'address '((buckingham palace) (london) (england))
+)
+
+
 (setq a '(a (list)
  (with 
  sublists)))
