@@ -66,6 +66,8 @@
 (user-info)
 (write-string "tytyy\n")
 (setq w "three")
+(setq x "mike")
+
 (write-string w)
 (argv)
 (reverse "qwert")
@@ -73,6 +75,10 @@
 	(map 'list #'* '(3 4 5) '(4 5 6))
 	(map 'list #'* '(3 4 5) )
 	(map 'list #'square '(3 4 5) )
+	(map 'list #'/ '(3.0 4.0 5.0) '(4 5 6))
+	(setq list2 (copy-list '((1 . 3) (2 . 4) (3 . 6) (4 . 8))))
+	
+	
 	
 
 
