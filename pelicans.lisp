@@ -1,0 +1,18 @@
+(setf *objects* '(whiskey-bottle bucket frog chain))
+(setq riders1 '(steve piet))
+(setq riders2 '(piet graeme mike steve))
+(car riders2)
+(setq greeting '(hello))
+(loop for n from 1 to 10 collect n)
+(intersection riders1 riders2 )
+(defun matc (l1 l2) 
+ (intersection l1 l2 ))
+
+(defun ingredients (order)
+(mapcan (lambda (burger)
+(case burger
+(single '(patty))
+(double '(patty patty))
+(double-cheese '(patty patty cheese))))
+order))
+(ingredients '(single double-cheese double))

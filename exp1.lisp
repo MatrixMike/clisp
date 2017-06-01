@@ -61,7 +61,7 @@
 (list 'a 'b 'c)
 (current-time )
 (getenv )
-(read-line )
+;(read-line )
 (uname)
 (user-info)
 (write-string "tytyy\n")
@@ -69,6 +69,10 @@
 (write-string w)
 (argv)
 (reverse "qwert")
+(defun square (x) (+ 1(* x x)))
+	(map 'list #'* '(3 4 5) '(4 5 6))
+	(map 'list #'* '(3 4 5) )
+	(map 'list #'square '(3 4 5) )
 	
 
 
