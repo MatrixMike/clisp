@@ -77,8 +77,14 @@
 	(map 'list #'square '(3 4 5) )
 	(map 'list #'/ '(3.0 4.0 5.0) '(4 5 6))
 	(setq list2 (copy-list '((1 . 3) (2 . 4) (3 . 6) (4 . 8))))
-	
-	
-	
-
-
+;	(mapc '(lambda (n) (plus n 1) ) nl)
+		 (funcall (lambda (a b c) (+ a b c)) 1 2 3)
+	(funcall (lambda (x) (+ 1(* x x))) 4 )
+	(setq nl '(3 4 5 ))
+  (map 'list #' (lambda (x) (+ 1(* x x))) '( 3 4 5) )
+(defun test1 ()  (map 'list #' (lambda (x) (+ 1(* x x))) '( 3 4 5) ) )
+(setq nl '(3 4 5 ))
+ (map 'list #' (lambda (x) (+ 1(* x x))) nl )
+(defun test1 ()  (map 'list #' (lambda (x) (+ 1(* x x))) nl ) )
+(defun test2 (parm)  (map 'list #' (lambda (x) (+ 1(* x x))) parm ) )
+(test2 nl)
