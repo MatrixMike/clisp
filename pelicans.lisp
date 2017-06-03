@@ -9,7 +9,7 @@
 (setq lwilliamstown '(williamstown   williamstown-beach  north-williamstown   newport ))
 
 ;allstations = [stations1,stations2,stations3]
-(intersection ararat werribee )
+(intersection lararat lwerribee )
 (member 'laverton '(WERRIBEE HOPPERS-CROSSING WILLIAMS-LANDING AIRCRAFT LAVERTON WESTONA ALTONA SEAHOLME NEWPORT FOOTSCRAY SOUTHERN-CROSS FLINDERS))
 (member 'laverton lwerribee )
 (mapcar #'(lambda (x) (+ x 2)) '(1 2 3 4 5))
