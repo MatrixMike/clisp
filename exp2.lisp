@@ -11,7 +11,7 @@
 ;(rplacd l l )
 ;(plus 3 4 )
 ;(princ 'x= blank x)
-(mapc '(lambda (n) (plus n 1) ) nl)
+;(mapc '(lambda (n) (plus n 1) ) nl)
 
  (apropos "total" "USER")
  (apropos "total" )
