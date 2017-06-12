@@ -23,8 +23,8 @@
 (setq greeting '(hello))
 (loop for n from 1 to 10 collect n)
 (intersection riders1 riders2 )
-(format t "An atom: ~S~%and a list: ~S~%and an integer: ~D~%"
-          nil (list 5) 6)
+;(format t "An atom: ~S~%and a list: ~S~%and an integer: ~D~%"
+;          nil (list 5) 6)
 (defun matc (l1 l2) 
  (intersection l1 l2 ))
 
@@ -33,6 +33,6 @@
 (case burger
 (single '(patty))
 (double '(patty patty))
-(double-cheese '(patty patty cheese))))
-order))
+(double-cheese '(patty patty cheese)))) order))
+
 (ingredients '(single double-cheese double))
