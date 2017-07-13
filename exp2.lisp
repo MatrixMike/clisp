@@ -18,7 +18,7 @@
  (append '(friends romans) '(and countrymen))
  (setf who '(only the good))
  (append who '(die young))
- (add-to-end '(a b c) 'd)
+; (add-to-end '(a b c) 'd)
  (nthcdr 0 '(a b c))
  (nthcdr 1 '(a b c))
  (last '(all is forgiven))
@@ -28,8 +28,8 @@
  (defun beforep (x y l)
 "Returns true if X appears before Y in L"
 (member y (member x l)))
-(beforep ’not ’whom
-’(ask not for whom the bell tolls))
+;;(beforep ’not ’whom
+;;    ’(ask not for whom the bell tolls))
 (intersection '(a s d f g)  '(v w s r a))
 (setf words                              
 '((one un)
