@@ -1,0 +1,9 @@
+sample reminder usage
+
+clisp
+(load "pelicans.lisp")
+(intersection lararat lwerribee )
+
+(exit)
+
+
