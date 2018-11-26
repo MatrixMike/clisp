@@ -88,3 +88,4 @@
 (defun test1 ()  (map 'list #' (lambda (x) (+ 1(* x x))) nl ) )
 (defun test2 (parm)  (map 'list #' (lambda (x) (+ 1(* x x))) parm ) )
 (test2 nl)
+
